@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.scss";
+import productsData from "../../../db.json";
 
 const Home = () => {
+  const [products, setProducts] = useState([]);
+
+  const fetchProducts = () => {
+    try {
+      setProducts(productsData.products);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    fetchProducts();
+  }, []);
+
   return (
     <div className="container  my-5">
       <section>
@@ -30,7 +45,25 @@ const Home = () => {
           <p>Bedroom</p>
         </div>
       </section>
-      <section></section>
+      <section>
+        <p className="OurProduct">Our Products</p>
+        <div className="cards">
+          {products.map((product) => (
+            <div key={product.id} className="product">
+              <p className="prId">{product.id}</p>
+              <img src={product.image} />
+
+              <p className="p-2 category">{product.category}</p>
+              <p className="ps-2 description">{product.description}</p>
+              <div className="d-flex p-2 gap-2 price">
+                <p className="current">{product.currentCost}</p>
+                <p className="discount">{product.discount}</p>
+              </div>
+              {/* <button onClick={() => getUserPosts(user.id)}>Posts</button> */}
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 };

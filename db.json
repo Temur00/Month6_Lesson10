@@ -2,67 +2,67 @@
   "products": [
     {
       "id": 1,
-      "category": "table",
-      "image": "",
+      "category": "chair",
+      "image": "/img1.png",
       "description": "Stylish cafe chair",
-      "current-cost": "Rp 2.500.000",
+      "currentCost": "Rp 2.500.000",
       "discount": "Rp 3.500.000"
     },
     {
       "id": 2,
-      "category": "table",
-      "image": "",
+      "category": "chair",
+      "image": "/img2.png",
       "description": "Stylish cafe chair",
-      "current-cost": "Rp 2.500.000",
-      "discount": "Rp 3.500.000"
+      "currentCost": "Rp 2.500.000",
+      "discount": ""
     },
     {
       "id": 3,
-      "category": "table",
-      "image": "",
-      "description": "Stylish cafe chair",
-      "current-cost": "Rp 2.500.000",
-      "discount": "Rp 3.500.000"
+      "category": "sofa",
+      "image": "/img3.png",
+      "description": "Luxury big sofa",
+      "currentCost": "Rp 7.000.000",
+      "discount": "Rp 14.000.000"
     },
     {
       "id": 4,
-      "category": "table",
-      "image": "",
-      "description": "Stylish cafe chair",
-      "current-cost": "Rp 2.500.000",
-      "discount": "Rp 3.500.000"
+      "category": "chair",
+      "image": "/img4.png",
+      "description": "Outdoor bar table and stool",
+      "currentCost": "Rp 500.000",
+      "discount": ""
     },
     {
       "id": 5,
-      "category": "table",
-      "image": "",
-      "description": "Stylish cafe chair",
-      "current-cost": "Rp 2.500.000",
-      "discount": "Rp 3.500.000"
+      "category": "lamp",
+      "image": "/img5.png",
+      "description": "Night lamp",
+      "currentCost": "Rp 1.500.000",
+      "discount": ""
     },
     {
       "id": 6,
-      "category": "table",
-      "image": "",
-      "description": "Stylish cafe chair",
-      "current-cost": "Rp 2.500.000",
-      "discount": "Rp 3.500.000"
+      "category": "sofa",
+      "image": "/img6.png",
+      "description": "Small mug",
+      "currentCost": "Rp 150.000",
+      "discount": ""
     },
     {
       "id": 7,
-      "category": "table",
-      "image": "",
+      "category": "sofa",
+      "image": "/img7.png",
       "description": "Stylish cafe chair",
-      "current-cost": "Rp 2.500.000",
-      "discount": "Rp 3.500.000"
+      "currentCost": "7.000.000",
+      "discount": "Rp 14.000.000"
     },
     {
       "id": 8,
-      "category": "table",
-      "image": "",
-      "description": "Stylish cafe chair",
-      "current-cost": "Rp 2.500.000",
-      "discount": "Rp 3.500.000"
+      "category": "sofa",
+      "image": "/img8.png",
+      "description": "Minimalist flower pot",
+      "currentCost": "Rp 500.000",
+      "discount": ""
     }
   ]
 }
