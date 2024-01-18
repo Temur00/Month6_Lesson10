@@ -1,0 +1,27 @@
+.something {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+.icons {
+  padding-left: 158px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.ms-auto {
+  display: flex;
+  gap: 42px;
+}
+.Logo {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}

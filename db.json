@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "table",
+      "image": "",
+      "description": "Stylish cafe chair",
+      "current-cost": "Rp 2.500.000",
+      "discount": "Rp 3.500.000"
+    },
+    {
+      "id": 2,
+      "category": "table",
+      "image": "",
+      "description": "Stylish cafe chair",
+      "current-cost": "Rp 2.500.000",
+      "discount": "Rp 3.500.000"
+    },
+    {
+      "id": 3,
+      "category": "table",
+      "image": "",
+      "description": "Stylish cafe chair",
+      "current-cost": "Rp 2.500.000",
+      "discount": "Rp 3.500.000"
+    },
+    {
+      "id": 4,
+      "category": "table",
+      "image": "",
+      "description": "Stylish cafe chair",
+      "current-cost": "Rp 2.500.000",
+      "discount": "Rp 3.500.000"
+    },
+    {
+      "id": 5,
+      "category": "table",
+      "image": "",
+      "description": "Stylish cafe chair",
+      "current-cost": "Rp 2.500.000",
+      "discount": "Rp 3.500.000"
+    },
+    {
+      "id": 6,
+      "category": "table",
+      "image": "",
+      "description": "Stylish cafe chair",
+      "current-cost": "Rp 2.500.000",
+      "discount": "Rp 3.500.000"
+    },
+    {
+      "id": 7,
+      "category": "table",
+      "image": "",
+      "description": "Stylish cafe chair",
+      "current-cost": "Rp 2.500.000",
+      "discount": "Rp 3.500.000"
+    },
+    {
+      "id": 8,
+      "category": "table",
+      "image": "",
+      "description": "Stylish cafe chair",
+      "current-cost": "Rp 2.500.000",
+      "discount": "Rp 3.500.000"
+    }
+  ]
+}

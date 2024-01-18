@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+
+section:first-child {
+  padding-top: 75px;
+
+  .like-card {
+    position: relative;
+    margin-top: -550px;
+    margin-left: 650px;
+    width: 543px;
+    height: 443px;
+    background: #fff3e3;
+    font-family: "Poppins", sans-serif;
+    padding-left: 41px;
+    p:first-child {
+      padding-top: 62px;
+    }
+    p:nth-child(2) {
+      color: var(--Primary, #b88e2f);
+      font-family: Poppins;
+      font-size: 52px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 65px;
+    }
+    p:nth-child(3) {
+      padding-top: 17px;
+      color: var(--Font-Color, #333);
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+    }
+  }
+
+  .button {
+    width: 222px;
+    height: 74px;
+    background: #b88e2f;
+    color: white;
+  }
+}
+
+section:nth-child(2) {
+  .browse {
+    text-align: center;
+    padding-top: 173px;
+    color: var(--Font-Color, #333);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  p:nth-child(2) {
+    text-align: center;
+    color: var(--Font-Color1, #666);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .images {
+    display: flex;
+    gap: 18px;
+    img {
+      border-radius: 12px;
+    }
+  }
+  .texts {
+    padding-top: 20px;
+    padding-left: 50px;
+    display: flex;
+    gap: 350px;
+    p {
+      color: var(--Font-Color, #333);
+      text-align: center;
+      font-family: Poppins;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+}
